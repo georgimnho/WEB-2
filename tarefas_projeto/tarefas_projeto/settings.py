@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'tarefas_app',
     'rest_framework',
     'django_filters',
+    'rest_framework_simplejwt',
 ]
 
 MIDDLEWARE = [
@@ -95,6 +96,9 @@ DATABASES = {
 
 
 REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES' : [
+        'rest_framework_simplejwt.authentication.JWTAuthentication' ,
+ ],
     "DEFAULT_FILTER_BACKENDS" :
 ("django_filters.rest_framework.DjangoFilterBackend",),
     "DEFAULT_SCHEMA_CLASS" :
