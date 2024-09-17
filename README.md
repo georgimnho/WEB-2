@@ -12,7 +12,6 @@ Responsável por gerenciar as tarefas que os usuários precisam realizar, oferec
 - **Endpoints:**
   - `GET/POST /api/tasks/`: Cria uma nova tarefa ou lista todas as tarefas existentes.
   - `GET/PUT/DELETE /api/tasks/{id}/`: Visualiza, edita ou deleta uma tarefa específica.
-  - `GET /api/tasks/user/{user_id}/`: Lista todas as tarefas de um usuário específico.
 
 ### 2. API de Categorias
 Permite a organização das tarefas em diferentes categorias, como "Trabalho", "Estudos" ou "Pessoal".
@@ -20,7 +19,6 @@ Permite a organização das tarefas em diferentes categorias, como "Trabalho", "
 - **Endpoints:**
   - `GET/POST /api/categories/`: Lista ou cria novas categorias de tarefas.
   - `GET/PUT/DELETE /api/categories/{id}/`: Visualiza, edita ou deleta uma categoria específica.
-  - `GET /api/categories/{id}/tasks/`: Lista todas as tarefas relacionadas a uma categoria específica.
 
 ### 3. API de Prioridades
 Define e gerencia os níveis de prioridade das tarefas, classificando-as como "Baixa", "Média" ou "Alta".
@@ -28,7 +26,6 @@ Define e gerencia os níveis de prioridade das tarefas, classificando-as como "B
 - **Endpoints:**
   - `GET/POST /api/priorities/`: Lista ou cria novos níveis de prioridade.
   - `GET/PUT/DELETE /api/priorities/{id}/`: Visualiza, edita ou deleta um nível de prioridade.
-  - `GET /api/priorities/{id}/tasks/`: Lista todas as tarefas com um determinado nível de prioridade.
 
 ## Estrutura do Projeto
 
