@@ -12,3 +12,9 @@
 2024-09-17 14:19:30,826 -INFO - viewsets - Task created: energia caiu - Category: faculdade - Priority: alta
 2024-09-17 14:22:55,239 -INFO - viewsets - Categoria criada: facu
 2024-09-17 14:23:18,570 -INFO - viewsets - Prioridade criada: baixo
+2024-09-17 14:58:23,958 -INFO - viewsets - Categoria criada: teste
+2024-09-17 14:58:27,092 -INFO - viewsets - Categoria criada: teste2
+2024-09-17 14:58:40,505 -INFO - viewsets - Prioridade criada: alto
+2024-09-17 14:58:44,489 -INFO - viewsets - Prioridade criada: medio
+2024-09-17 15:01:09,011 -INFO - viewsets - Tarefa criada: teste1 - Categoria: teste - Prioridade: alto
+2024-09-17 15:01:23,531 -INFO - viewsets - Tarefa criada: teste2 - Categoria: teste - Prioridade: alto

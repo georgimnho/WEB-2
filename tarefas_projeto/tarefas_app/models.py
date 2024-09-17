@@ -30,12 +30,16 @@ class BaseManager(models.Manager):
 class Category(SoftDeleteModel):
     name = models.CharField(max_length=100)
 
+    objects = BaseManager()
+
     def __str__(self):
         return self.name
 
 
 class Priority(SoftDeleteModel):
     level = models.CharField(max_length=50)
+
+    objects = BaseManager()
 
     def __str__(self):
         return self.level
@@ -47,6 +51,8 @@ class Task(SoftDeleteModel):
     completed = models.BooleanField(default=False)
     category = models.ForeignKey(Category, related_name='tasks', on_delete=models.CASCADE)
     priority = models.ForeignKey(Priority, related_name='tasks', on_delete=models.CASCADE)
+
+    objects = BaseManager()
 
     def __str__(self):
         return self.title
